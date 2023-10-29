@@ -1,27 +1,22 @@
 {
-    "manifest_version": 3,
-    "name": "My Company Extension",
-    "version": "1.0",
-    "description": "A Chrome extension for submitting issues to the IT department.",
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "icons": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    },
-    "permissions": [
-      "activeTab",
-      "scripting",
-      "audioCapture"
-    ],
-    "host_permissions": [
-      "*://*/*"
-    ],
-    "content_security_policy": {
-      "extension_pages": "script-src 'self' 'unsafe-inline'; object-src 'self'",
-      "sandbox": ["sandbox", "data:", "blob:", "file:", "chrome-extension:"]
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     }
   }
-  
+}
