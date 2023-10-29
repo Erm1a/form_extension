@@ -1,3 +1,8 @@
-# Ermia Shabani
-# form_extension
-google chrome form extension with dummy api
+# README
+
+## Author
+- Name: Ermia
+
+## Introduction
+This README file provides basic information about the extention.
+
