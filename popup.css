@@ -1,0 +1,58 @@
+body {
+    width: 320px;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #0072ff;
+    font-size: 24px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.submit-button {
+    background-color: #0072ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #0055cc;
+}
+
+.submit-button:active {
+    transform: scale(0.95);
+}
+
+.status-message {
+    margin-top: 10px;
+    color: #008000;
+}
+
+#app-container {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-container {
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+#issue {
+    width: 100%;
+}

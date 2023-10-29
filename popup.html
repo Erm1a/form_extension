@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Company Extension</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js" defer></script>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="app-container">
+    <h1>Submit Issue</h1>
+    <form id="issueForm" class="form-container">
+      <label for="issue">Issue:</label><br>
+      <textarea id="issue" name="issue" rows="4" cols="50"></textarea><br>
+      <label for="attachment" class="file-label">
+        <i class="fa fa-file"></i> Choose File
+        <input type="file" id="attachment" name="attachment" multiple>
+      </label>
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+    <div id="status"></div>
+  </div>
+</body>
+</html>
